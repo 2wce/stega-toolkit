@@ -9,10 +9,8 @@ describe('split', () => {
     const data = { name: 'John', age: 30, city: 'New York' };
     const encodedStr = combine(text, data);
 
-    console.log({ encodedStr });
     const result = split(encodedStr);
 
-    console.log({ result });
     expect.equal(result.text, text);
     expect.deepEqual(result.data, data);
   });
