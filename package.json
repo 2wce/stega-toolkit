@@ -1,6 +1,6 @@
 {
   "name": "stega-js",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Steganography Utility functions",
   "main": "src/index.js",
   "author": "Kudakwashe Terrence Mupeni",
@@ -9,22 +9,17 @@
   "type": "module",
   "types": "src/index.d.ts",
   "scripts": {
+    "release": "changeset publish",
     "test": "node --test",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@eslint/js": "^9.1.1",
-    "@semantic-release/changelog": "^6.0.0",
-    "@semantic-release/commit-analyzer": "^12.0.0",
-    "@semantic-release/git": "^10.0.0",
-    "@semantic-release/github": "^10.0.3",
-    "@semantic-release/npm": "^12.0.0",
-    "@semantic-release/release-notes-generator": "^13.0.0",
     "eslint": "^9.1.1",
     "globals": "^15.1.0",
-    "prettier": "^3.2.5",
-    "semantic-release": "^23.0.8"
+    "prettier": "^3.2.5"
   },
   "dependencies": {
     "@types/node": "^20.12.8"
