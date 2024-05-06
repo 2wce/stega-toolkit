@@ -4,6 +4,10 @@
   "description": "Steganography Utility functions",
   "main": "src/index.js",
   "author": "Kudakwashe Terrence Mupeni",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2wce/stega-toolkit.git"
+  },
   "license": "MIT",
   "private": false,
   "type": "module",

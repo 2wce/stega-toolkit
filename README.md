@@ -2,9 +2,9 @@
 
 A set of steganography utility functions for embedding JSON data in text
 
-[![Version](https://img.shields.io/npm/v/stega-js.svg)](https://www.npmjs.com/package/stega-toolkit)
+[![Version](https://img.shields.io/npm/v/stega-toolkit.svg)](https://www.npmjs.com/package/stega-toolkit)
 [![License](https://img.shields.io/npm/l/stega-toolkit.svg)](https://github.com/2wce/stega-toolkit/blob/main/LICENSE)
-[![Build Status](https://github.com/2wce/stega-toolkit/actions/workflows/release.yml/badge.svg)]
+![Build Status](https://github.com/2wce/stega-toolkit/actions/workflows/release.yml/badge.svg)
 
 ## Table of Contents
 
