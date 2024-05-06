@@ -1,5 +1,8 @@
 {
   "name": "stega-toolkit",
+  "imports": {
+    "#/": "./src/*"
+  },
   "version": "1.1.1",
   "description": "Steganography Utility functions",
   "main": "src/index.js",
@@ -8,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/2wce/stega-toolkit.git"
   },
+  "files": [
+    "src"
+  ],
   "license": "MIT",
   "private": false,
   "type": "module",
@@ -15,6 +21,7 @@
   "scripts": {
     "release": "changeset publish",
     "test": "node --test",
+    "coverage": "npx nyc --reporter=lcov npm test",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
