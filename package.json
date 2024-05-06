@@ -1,5 +1,5 @@
 {
-  "name": "stega-js",
+  "name": "stega-toolkit",
   "version": "1.0.0",
   "description": "Steganography Utility functions",
   "main": "src/index.js",
