@@ -1,6 +1,6 @@
 {
   "name": "stega-toolkit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Steganography Utility functions",
   "main": "src/index.js",
   "author": "Kudakwashe Terrence Mupeni",
