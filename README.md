@@ -21,12 +21,6 @@ A set of steganography utility functions for embedding JSON data in text
 npm install stega-toolkit
 ```
 
-## Usage
-
-```javascript
-// Example usage code here
-```
-
 ## API
 
 ### `combine(params)`
