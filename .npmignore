@@ -1,0 +1,9 @@
+tests/*
+
+.github/*
+
+.changeset/*
+
+eslint.config.js
+
+.prettierrc
