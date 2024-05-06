@@ -1,5 +1,11 @@
 # stega-js
 
+## 1.1.1
+
+### Patch Changes
+
+- 3bc5136: docs: update repo docs
+
 ## 1.1.0
 
 ### Minor Changes
