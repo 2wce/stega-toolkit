@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/2wce/stega-toolkit.git"
   },
+  "files": [
+    "src"
+  ],
   "license": "MIT",
   "private": false,
   "type": "module",
@@ -15,6 +18,7 @@
   "scripts": {
     "release": "changeset publish",
     "test": "node --test",
+    "coverage": "npx nyc --reporter=lcov npm test",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
