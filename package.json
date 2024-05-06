@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "author": "Kudakwashe Terrence Mupeni",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "type": "module",
   "types": "src/index.d.ts",
   "scripts": {
