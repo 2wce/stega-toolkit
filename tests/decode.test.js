@@ -1,13 +1,14 @@
 import { strict as expect } from 'node:assert';
 import { describe, test } from 'node:test';
 import { combine } from '../src/combine.js';
-import { decode } from '../src/utils.js';
+import { decode } from '../src/decode.js';
 
 describe('decode', () => {
-  test.only('should return the decoded string and the encoded data length when given a string encoded with zero-width characters', () => {
+  test('should return the decoded string and the encoded data length when given a string encoded with zero-width characters', () => {
     const text = 'Hello, World!';
-    const data = { name: 'John', age: 30, city: 'New York' };
-    const encodedStr = combine(text, data, false);
+    const dataToEncode = { name: 'John', age: 30, city: 'New York' };
+    const options = { skip: false, encodeDates: false };
+    const encodedStr = combine({ text, dataToEncode, options });
 
     const result = decode(encodedStr);
     expect.equal(

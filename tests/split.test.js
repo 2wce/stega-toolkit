@@ -6,13 +6,13 @@ import { split } from '../src/split.js';
 describe('split', () => {
   test('should return the original text and data when given a string encoded with the combine function', () => {
     const text = 'Hello, World!';
-    const data = { name: 'John', age: 30, city: 'New York' };
-    const encodedStr = combine(text, data);
+    const dataToEncode = { name: 'John', age: 30, city: 'New York' };
+    const encodedStr = combine({ text, dataToEncode });
 
     const result = split(encodedStr);
 
     expect.equal(result.text, text);
-    expect.deepEqual(result.data, data);
+    expect.deepEqual(result.data, dataToEncode);
   });
 
   // it("should return the original text as a string when the encoded data cannot be parsed as JSON", () => {
