@@ -7,3 +7,5 @@ tests/*
 eslint.config.js
 
 .prettierrc
+
+jsconfig.json
